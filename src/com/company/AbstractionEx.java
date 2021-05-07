@@ -2,7 +2,7 @@ package com.company;
 abstract class Shape{
     abstract void draw();
 }
-//In real scenario, implementation is provided by others i.e. unknown by end user
+//In real world scenario, implementation is provided by others i.e. unknown by end user
 class Rectangle extends Shape{
     void draw(){System.out.println("drawing rectangle");}
 }
